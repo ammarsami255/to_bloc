@@ -1,7 +1,7 @@
 // Auth Cubit - manages authentication state using flutter_bloc
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import '../../../services/auth_service.dart';
+import 'package:el_moza3/services/auth_service.dart';
 import 'auth_state.dart';
 
 class AuthCubit extends Cubit<AuthState> {
